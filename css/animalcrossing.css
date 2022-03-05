@@ -1,0 +1,315 @@
+@charset "utf-8";
+body {
+    font-family: 'Noto Sans KR',sans-serif;
+}
+#wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* Safe Area 1280 클래스 */
+.w1280 {
+    width: 1280px;
+    margin: 0 auto;
+}
+/* Header */
+header {
+    height: 700px;
+    background-image: url(../images/slide_back_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    padding-top: 24px;
+}
+/* Logo, Gnb */
+/* 3단 레이아웃 */
+header .logo_gnb_left {
+    width: 1170px;
+    /* 플롯 */
+    float: left;
+    /* background-color: red; */
+}
+header .logo {
+    width: 110px;
+    /* 플롯 */
+    float: left;
+}
+header nav {
+    float: right;
+}
+header .gnb {
+    color: #fff;
+    font-weight: 400;
+}
+header .gnb li {
+    float: left;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+/* Btn_Search */
+header .search {
+    width: 110px;
+    /* 플롯 */
+    float: right;
+    text-align: right;
+    margin-top: 24px;
+    /* background-color: blue; */
+}
+header .gnb li a:hover {
+    color: #f8d875;
+}
+
+
+
+/* ImageText Deco */
+header .img_deco {
+    padding-left: 20px;
+}
+header .img_deco h2{
+    font-size: 72px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 230px;
+    line-height: 78px;
+}
+header .img_deco span {
+    font-size: 56px;
+    color: #fff;
+    font-weight: bold;
+}
+header .img_deco p{
+    font-size: 14px;
+    color: #cccccc;
+}
+header .img_deco button {
+    width: 150px;
+    height: 40px;
+    background-color: #f8d875;
+    margin-top: 20px;
+}
+header .img_deco button a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: -1;
+}
+
+/* Section CardBox */
+.card_box {
+    background-color: #a7d9e7;
+}
+.card_box .card_box_view{
+    width: 400px;
+    height: 502px;
+    background-color: #fff;
+    /* 플롯 */
+    float: left;
+    margin-right: 40px;
+
+    /* 포지션 */
+    position: relative;
+    left: 0;
+    top: -80px;
+    z-index: 1;
+}
+
+/* CardText */
+/* 포지션 relative로 했기 때문에 신경쓰지 않고 코딩이 가능한 것 */
+.card_box .card_box_info {
+    padding-bottom: 60px;
+}
+.card_box .card_box_info h2{
+    /* 플롯 */
+    float: left;
+    color: #4f6796;
+    font-size: 14px;
+}
+.card_box .card_box_info h2>span{
+    color: #072d72;
+    font-weight: 500;
+}
+.card_box .card_box_info p{
+    font-size: 14px;
+    color: #4f6796;
+    /* 플롯 */
+    float: right;
+}
+.card_box .card_box_info p img {
+    vertical-align: middle;
+    padding-bottom: 2px;
+}
+
+/* Section ABOUTUS */
+.about_us {
+    padding: 100px 0 140px;
+}
+.about_us .about_us_text {
+    color: #9e9e9e;
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+.about_us .line {
+    width: 110px;
+    height: 2px;
+    border-bottom: 1px solid #fa80ab;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+/* Article MOVIE */
+.mov {
+    width: 100%;
+    height: 560px;
+    background-image: url(../images/mov_back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    /* 위치기준값 */
+    position: relative;
+}
+.mov .video {
+    /* 포지션 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    /* 포지션 중앙 맞추기 = 해당 박스 너비값의 반을 뺌 */
+    transform: translateX(-530px);
+    transform: translateX(-50%);
+}
+
+/* Section MyHomeTechnic */
+.myhome {
+    /* margin-top: 400px; */
+    /* margin-bottom: 100px; */
+    padding-top: 380px;
+    padding-bottom: 160px;
+    /* 이 단계에서는 psa 영향을 받으므로, 영향 받은 부분값을 더함 */
+    /* psr을 하는 방법도 있지만 값 계산이 복잡함 */
+}
+
+/* Section FAQ */
+.faq_playing {
+    background-color: #f9e5a8;
+    padding: 70px 0 130px;
+}
+
+/* Aside Banner */
+.banner {
+    background-color: #e3b1c1;
+}
+/* Footer */
+.footer {
+    background-color: #4aa067;
+    color: #fff;
+    padding-top: 100px;
+}
+/* Footer Logo, SNS */
+.footer .footer_logo {
+    width: 510px;
+    /* 플롯 */
+    /* float: left; */
+}
+.footer .footer_logo dt {
+    margin-bottom: 24px;
+}
+.footer .footer_logo dd {
+    font-size: 14px;
+    color: #404040;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.footer .footer_logo .sns {
+    display: inline-block;
+    margin-right: 20px;
+}
+/* Footer Device */
+.footer .footer_device {
+    width: 330px;
+    /* 플롯 */
+    /* float: left; */
+}
+.footer .footer_device dt {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.footer .footer_device dd {
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer .footer_device dd a:hover{
+    color: #f8d875;
+}
+
+
+/* Footer Software */
+.footer .footer_software {
+    width: 330px;
+    /* 플롯 */
+    /* float: left; */
+}
+.footer .footer_software dt{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.footer .footer_software dd{
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer .footer_software dd a:hover{
+    color: #f8d875;
+}
+/* Footer Service */
+.footer .footer_services {
+    width: 110px;
+    /* 플롯 */
+    /* float: left; */
+}
+.footer .footer_services dt{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.footer .footer_services dd {
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer .footer_services dd a:hover{
+    color: #f8d875;
+}
+/* Copyright */
+.footer .copyright {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 32px;
+}
+.footer .copyright_line {
+    width: 100%;
+    border-bottom: 1px solid #f8d875;
+    margin-bottom: 32px;
+}
+/* 플롯 레이아웃*/
+/* 위의 스타일도 그룹선택자로 지정해도 되지만, 플롯 때문에 구분해서 코딩하였음 */
+.footer_logo,
+.footer_device,
+.footer_software,
+.footer_services{
+    float: left;
+}
+.copyright {
+    /* 플롯 해제 */
+    /* 하나 남은 거 해제하는 방식 */
+    clear: both;
+}
