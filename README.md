@@ -25,7 +25,7 @@
 디자인 및 코딩 100%
 
 ## 브라우저
-[웹페이지 보기](http://eunbij.github.io/pf_animalcrossing)
+[PC버전 보기](http://eunbij.github.io/pf_animalcrossing)
 
 > 본 사이트는 개인용 포트폴리오 작업을 위해 제작하였으며, 홈페이지 일부 내용 및 이미지의 저작권이 따로 있음을 밝힙니다.
 
